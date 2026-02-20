@@ -35,6 +35,21 @@ body {
   margin-bottom: 1.2rem;
 }
 
+.hero-meta {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.hero-meta span {
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  padding: 0.38rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.86rem;
+  color: #efe4ff;
+}
+
 .eyebrow {
   display: inline-flex;
   margin: 0;
@@ -76,6 +91,10 @@ h1 {
   padding: 1.4rem;
   backdrop-filter: blur(6px);
   box-shadow: 0 20px 45px rgba(0, 0, 0, 0.35);
+}
+
+.card-wide {
+  grid-column: span 2;
 }
 
 h2 {
@@ -126,4 +145,10 @@ small {
   display: block;
   color: #d8cbef;
   opacity: 0.85;
+}
+
+@media (max-width: 780px) {
+  .card-wide {
+    grid-column: span 1;
+  }
 }

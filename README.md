@@ -1,13 +1,14 @@
 # Sarah Maia Portfolio (Ruby/Jekyll)
 
-A fully Ruby-powered portfolio using Jekyll, prepared for GitHub Pages.
+A fully Ruby-powered portfolio using Jekyll, now prepared for both GitHub Pages and Vercel.
 
 ## Project structure
 
 - `index.md`: homepage template rendered by Jekyll
 - `_layouts/default.html`: shared site layout
-- `_data/profile.yml`: profile content (bio, education, links, contact email)
+- `_data/profile.yml`: profile content (bio, experience, education, skills, links, contact)
 - `assets/css/style.css`: visual styling
+- `vercel.json`: Vercel build/output configuration
 
 ## Run locally
 
@@ -17,6 +18,21 @@ bundle exec jekyll serve
 ```
 
 Open `http://127.0.0.1:4000`.
+
+## Deploy on Vercel
+
+1. Import this repository into Vercel.
+2. Framework preset: **Other** (or let Vercel auto-detect with `vercel.json`).
+3. Build command: `bundle exec jekyll build`.
+4. Output directory: `_site`.
+
+These settings are already defined in `vercel.json`.
+
+### Ruby runtime note
+
+> "The Ruby runtime takes in a Ruby program that defines a singular HTTP handler and outputs it as a Vercel Function."
+
+This portfolio is static by default, but you can add Ruby serverless routes if you later need dynamic endpoints.
 
 ## Publish on GitHub Pages
 
@@ -37,7 +53,8 @@ theme: minima
 ```
 
 and remove/adjust custom layout/styles as needed.
+
 ## Personalization
 
 - Main contact email: `hi@sarahmaia.eu.org`
-- Update social links in `_data/profile.yml`.
+- Update sections and social links in `_data/profile.yml`.
