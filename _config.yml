@@ -4,6 +4,8 @@ description: >-
   Senior developer in the U.S. and cybersecurity engineer.
 baseurl: ""
 url: ""
+lang: en
 markdown: kramdown
 theme: null
-plugins: []
+plugins:
+  - jekyll-feed

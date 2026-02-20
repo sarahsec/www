@@ -1,6 +1,6 @@
 # Sarah Maia Portfolio (Ruby/Jekyll)
 
-A fully Ruby-powered portfolio using Jekyll (GitHub Pages friendly), with content managed via Jekyll data files and Liquid templates.
+A fully Ruby-powered portfolio using Jekyll, prepared for GitHub Pages.
 
 ## Project structure
 
@@ -26,6 +26,17 @@ Open `http://127.0.0.1:4000`.
 4. Select your branch (for example, `main`) and folder `/ (root)`.
 5. Save.
 
+## About GitHub's "adding a theme" docs
+
+This portfolio uses a **custom visual theme** (custom layout + custom CSS), so `theme` is intentionally set to `null` in `_config.yml`.
+
+If you want to switch to a built-in GitHub Pages theme from the docs workflow, set a supported value like:
+
+```yml
+theme: minima
+```
+
+and remove/adjust custom layout/styles as needed.
 ## Personalization
 
 - Main contact email: `hi@sarahmaia.eu.org`
