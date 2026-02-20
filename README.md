@@ -37,7 +37,6 @@ theme: minima
 ```
 
 and remove/adjust custom layout/styles as needed.
-
 ## Personalization
 
 - Main contact email: `hi@sarahmaia.eu.org`
