@@ -49,7 +49,6 @@ title: Sarah Maia | Senior Developer & Cybersecurity Engineer
         {% endfor %}
         <a href="mailto:{{ site.data.profile.email }}">Email</a>
       </div>
-      <small>Tip: replace social links with your real profile URLs before publishing.</small>
     </article>
   </section>
 </main>
