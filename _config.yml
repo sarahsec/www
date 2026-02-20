@@ -2,8 +2,8 @@ title: Sarah Maia | Portfolio
 email: hi@sarahmaia.eu.org
 description: >-
   Senior developer in the U.S. and cybersecurity engineer.
-baseurl: ""
-url: ""
+baseurl: "/www"
+url: "https://sarahsec.github.io"
 lang: en
 markdown: kramdown
 theme: null
