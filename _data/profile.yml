@@ -14,11 +14,36 @@ about:
   - >-
     I am also proudly a cat lover — and I believe technical curiosity and human
     sensitivity belong in every project.
+experience:
+  - role: Senior Developer
+    org: VintageSec Labs
+    period: 2022 — present
+  - role: Security Analyst (Junior)
+    org: Independent research collaborations
+    period: 2021 — present
 education:
   - school: UCSF — University of California, San Francisco
     details: San Francisco, CA · Research Medicine (voluntary withdrawal)
   - school: Princeton University
     details: Princeton, NJ · Physical Science (in progress, variable term)
+skills:
+  - Ruby, JavaScript/TypeScript, Python
+  - Jekyll, static architecture, performance-first front-end
+  - Application security, threat modeling, secure coding
+  - DX-focused workflows and technical mentoring
+projects:
+  - name: Secure Portfolio Platform
+    description: >-
+      Built a fast static portfolio architecture with modular data, reusable
+      components, and clean deployment pipelines.
+  - name: Threat Surface Mapper
+    description: >-
+      Internal tool prototype to map application endpoints and annotate risk
+      vectors for early-stage security reviews.
+  - name: Incident Readiness Playbooks
+    description: >-
+      Authored practical response checklists and simulation drills for small
+      product teams.
 services:
   - Full-stack development with a focus on performance and developer experience
   - Secure coding practices and applied security
