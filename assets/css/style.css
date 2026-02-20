@@ -1,0 +1,129 @@
+:root {
+  --bg-1: #090912;
+  --bg-2: #1d102b;
+  --bg-3: #341434;
+  --accent: #f38bdc;
+  --accent-soft: #b197ff;
+  --text: #f5efff;
+  --muted: #d0c4ec;
+  --card: rgba(19, 12, 34, 0.62);
+  --border: rgba(248, 180, 241, 0.25);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  color: var(--text);
+  background: radial-gradient(circle at 15% 10%, #582d80 0%, transparent 40%),
+    radial-gradient(circle at 80% 20%, #813b88 0%, transparent 45%),
+    radial-gradient(circle at 50% 100%, #2a1646 0%, transparent 50%),
+    linear-gradient(160deg, var(--bg-1), var(--bg-2) 45%, var(--bg-3));
+}
+
+.page-wrap {
+  width: min(1060px, 92vw);
+  margin: 0 auto;
+  padding: 3.5rem 0 4rem;
+}
+
+.hero {
+  margin-bottom: 1.2rem;
+}
+
+.eyebrow {
+  display: inline-flex;
+  margin: 0;
+  font-size: 0.82rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--accent-soft);
+}
+
+h1 {
+  margin: 0.5rem 0 0.4rem;
+  font-size: clamp(2.1rem, 4.7vw, 3.8rem);
+  line-height: 1.06;
+}
+
+.lead {
+  margin: 0.2rem 0;
+  max-width: 62ch;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.tagline {
+  margin-top: 1.4rem;
+  font-weight: 500;
+  color: #ffd4fd;
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(245px, 1fr));
+}
+
+.card {
+  border: 1px solid var(--border);
+  background: linear-gradient(170deg, var(--card), rgba(14, 8, 26, 0.68));
+  border-radius: 20px;
+  padding: 1.4rem;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.35);
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 1.1rem;
+  letter-spacing: 0.04em;
+}
+
+ul {
+  margin: 0;
+  padding-left: 1rem;
+  color: var(--muted);
+}
+
+li {
+  margin-bottom: 0.8rem;
+  line-height: 1.55;
+}
+
+p {
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin: 0.85rem 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  padding: 0.5rem 0.9rem;
+  border-radius: 999px;
+  transition: all 180ms ease;
+}
+
+a:hover {
+  border-color: var(--accent);
+  transform: translateY(-1px);
+  box-shadow: 0 0 0 4px rgba(243, 139, 220, 0.15);
+}
+
+small {
+  display: block;
+  color: #d8cbef;
+  opacity: 0.85;
+}

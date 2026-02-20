@@ -1,0 +1,11 @@
+title: Sarah Maia | Portfolio
+email: hi@sarahmaia.eu.org
+description: >-
+  Senior developer in the U.S. and cybersecurity engineer.
+baseurl: ""
+url: ""
+lang: en
+markdown: kramdown
+theme: null
+plugins:
+  - jekyll-feed
