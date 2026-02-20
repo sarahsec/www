@@ -1,0 +1,31 @@
+name: Sarah Maia
+title: Senior Developer & Cybersecurity Engineer
+location: United States
+email: hi@sarahmaia.eu.org
+tagline: "cybersecurity engineer at VintageSec Labs | cat lover (=ↀωↀ=) | the first girl to go to space (at least in my dreams ☆ミ)"
+intro: >-
+  Senior developer in the U.S. and junior security analyst, crafting resilient
+  solutions and elegant digital experiences.
+about:
+  - >-
+    I am passionate about technology, research, and real-world impact. I work
+    across software engineering and security with a strong focus on reliability,
+    privacy, and product clarity.
+  - >-
+    I am also proudly a cat lover — and I believe technical curiosity and human
+    sensitivity belong in every project.
+education:
+  - school: UCSF — University of California, San Francisco
+    details: San Francisco, CA · Research Medicine (voluntary withdrawal)
+  - school: Princeton University
+    details: Princeton, NJ · Physical Science (in progress, variable term)
+services:
+  - Full-stack development with a focus on performance and developer experience
+  - Secure coding practices and applied security
+  - Clean architecture for scalable products
+  - Technical mentoring for growing teams
+links:
+  - label: GitHub
+    href: https://github.com/
+  - label: LinkedIn
+    href: https://www.linkedin.com/
